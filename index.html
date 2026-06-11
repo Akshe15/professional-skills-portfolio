@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshethaa | Professional Skills Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar">
+      <a href="#home" class="logo"><span>AV</span> Portfolio</a>
+      <button class="menu-toggle" aria-label="Open navigation">☰</button>
+      <ul class="main-nav">
+        <li><a href="#home">Home Page</a></li>
+        <li><a href="#myself">My Self</a></li>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#learn">What I Learn</a></li>
+        <li><a href="#lecturers">Lecturers</a></li>
+        <li><a href="#reflection">Final Reflection</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-pad">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Professional Skills • Year 2 Semester 2 • SCU</p>
+        <h1>My Professional Skills Learning Portfolio</h1>
+        <p class="hero-text">A soft, floral and professional portfolio website designed to present my learning journey, reflections, lecture summaries, class activities and the Grow Green group project in one organized place.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#learn">Explore Lectures</a>
+          <a class="btn secondary" href="#myself">About Me</a>
+        </div>
+      </div>
+      <div class="hero-card reveal delay">
+        <div class="card-photo"></div>
+        <div class="floating-note">Learning • Confidence • Communication • Growth</div>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <article>
+        <strong>Subject Focus</strong>
+        <span>Professional communication, employability, ethics, etiquette, confidence and career readiness.</span>
+      </article>
+      <article>
+        <strong>Portfolio Purpose</strong>
+        <span>To document what I learned from lectures and show how I can apply those skills in real life.</span>
+      </article>
+      <article>
+        <strong>Design Theme</strong>
+        <span>Soft pastel colors, floral details, clean cards and a special green forest theme for Grow Green.</span>
+      </article>
+    </section>
+
+    <section id="myself" class="section-pad about-section">
+      <div class="section-title reveal">
+        <p class="eyebrow">My Self</p>
+        <h2>About Akshethaa Vinayagamoorthy</h2>
+      </div>
+      <div class="about-grid">
+        <div class="portrait-card reveal">
+          <img src="assets/akshethaa-profile.jpeg" alt="Akshethaa holding Grow Green frame">
+        </div>
+        <div class="about-copy reveal delay">
+          <h3>Software Engineering student with a creative mind</h3>
+          <p>I am <strong>Akshethaa Vinayagamoorthy, SAnumber-SA24610311</strong> ,a Software Engineering student studying <strong>Year 2 Semester 2 in SCU</strong>. I enjoy learning technologies that help people solve real problems, and I also love adding creativity, color and meaning into the work I do.</p>
+          <p>My passion is to grow as a confident software engineering student who can communicate clearly, work with teams, lead small ideas into real projects, and present myself professionally. I like designing, learning new digital tools, improving my communication skills, and creating work that feels useful and beautiful.</p>
+          <div class="value-cloud">
+            <span>Creative Coding</span><span>Team Work</span><span>Floral Design</span><span>Problem Solving</span><span>Confidence</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="introduction" class="section-pad intro-page">
+      <div class="section-title reveal centered">
+        <p class="eyebrow">Introduction</p>
+        <h2>About This Portfolio Website</h2>
+      </div>
+      <div class="intro-cards">
+        <article class="glass reveal">
+          <h3>How I designed it</h3>
+          <p>I designed this portfolio as a single-page professional website with smooth navigation. The main menu guides users to Home, My Self, Introduction, What I Learn and Contact. Inside the learning section, another lecture menu helps users quickly open each lecture summary.</p>
+        </article>
+        <article class="glass reveal delay">
+          <h3>Languages used</h3>
+          <p>The front end is built with <strong>HTML</strong> for structure, <strong>CSS</strong> for colors, layout, floral patterns and responsive design, and <strong>JavaScript</strong> for lecture switching, mobile navigation, contact form response and scroll animation.</p>
+        </article>
+        <article class="glass reveal delay-2">
+          <h3>Why this idea</h3>
+          <p>I chose a soft floral theme because it matches my personality and gives the website a friendly look. For the Grow Green project, I used a separate forest-green style to highlight our plant giveaway theme and the environmental message behind it.</p>
+        </article>
+        <article class="glass reveal delay-3">
+          <h3>What users can get</h3>
+          <p>Users can understand my learning progress, view key points from lectures, see student guide tips, explore class memories and contact me using the complaint-style feedback form.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="learn" class="section-pad learn-section">
+      <div class="section-title reveal centered">
+        <p class="eyebrow">What I Learn</p>
+        <h2>Professional Skills Lecture Notes</h2>
+        <p class="section-desc">Click a lecture title to view its summary, key points, student guide and related image.</p>
+      </div>
+
+      <div class="lecture-layout">
+        <aside class="lecture-nav reveal" aria-label="Lecture navigation">
+          <button class="lecture-tab active" data-lecture="professional">
+            <span class="tab-lec-num">Lec 1</span>
+            <span class="tab-lec-title">Professional Skills &amp; Employability</span>
+            <span class="tab-lec-by">Ishara Raviharee Weerasinghe</span>
+          </button>
+          <button class="lecture-tab" data-lecture="emotional">
+            <span class="tab-lec-num">Lec 2</span>
+            <span class="tab-lec-title">Emotional Intelligence</span>
+            <span class="tab-lec-by">Guest Lecture</span>
+          </button>
+          <button class="lecture-tab" data-lecture="ethicsit">
+            <span class="tab-lec-num">Lec 3</span>
+            <span class="tab-lec-title">Professional Responsibilities &amp; Code of Ethics</span>
+            <span class="tab-lec-by">Nushkan Nismi</span>
+          </button>
+          <button class="lecture-tab" data-lecture="business">
+            <span class="tab-lec-num">Lec 4</span>
+            <span class="tab-lec-title">Business Ethics in Practice</span>
+            <span class="tab-lec-by">Shenal Rajakarunanayake</span>
+          </button>
+          <button class="lecture-tab" data-lecture="grooming">
+            <span class="tab-lec-num">Lec 5</span>
+            <span class="tab-lec-title">Grooming &amp; Etiquette</span>
+            <span class="tab-lec-by">Ms. Oshini Wimalasena</span>
+          </button>
+          <button class="lecture-tab" data-lecture="dining">
+            <span class="tab-lec-num">Lec 6</span>
+            <span class="tab-lec-title">Dining Etiquette</span>
+            <span class="tab-lec-by">Guest Lecture</span>
+          </button>
+          <button class="lecture-tab" data-lecture="email">
+            <span class="tab-lec-num">Lec 7</span>
+            <span class="tab-lec-title">Email Etiquette</span>
+            <span class="tab-lec-by">Guest Lecture</span>
+          </button>
+          <button class="lecture-tab" data-lecture="interview">
+            <span class="tab-lec-num">Lec 8</span>
+            <span class="tab-lec-title">Interview Skills</span>
+            <span class="tab-lec-by">Guest Lecture</span>
+          </button>
+          <button class="lecture-tab" data-lecture="cv">
+            <span class="tab-lec-num">Lec 9</span>
+            <span class="tab-lec-title">CV &amp; Cover Letter Writing</span>
+            <span class="tab-lec-by">Guest Lecture</span>
+          </button>
+          <button class="lecture-tab" data-lecture="negotiation">
+            <span class="tab-lec-num">Lec 10</span>
+            <span class="tab-lec-title">Negotiation Skills</span>
+            <span class="tab-lec-by">S. Maneesha Aishcharya</span>
+          </button>
+          <button class="lecture-tab" data-lecture="portfolio">
+            <span class="tab-lec-num">Lec 11</span>
+            <span class="tab-lec-title">Portfolio Development</span>
+            <span class="tab-lec-by">Ishara Raviharee Weerasinghe</span>
+          </button>
+          <button class="lecture-tab green-tab" data-lecture="growgreen">🌿 Grow Green Project</button>
+        </aside>
+
+        <div class="lecture-display reveal delay">
+          <article class="lecture-panel active" id="professional">
+            <div class="lecture-image soft-image img-professional"></div>
+            <div class="lecture-copy">
+              <span class="badge">Lecture 1</span>
+              <p class="panel-lecturer">👩‍🏫 <strong>Ishara Raviharee Weerasinghe</strong></p>
+              <h3>Professional Skills and Employability</h3>
+              <p class="summary">This lecture introduced professional skills as the transferable soft skills needed in workplace life. It explained that technical knowledge is important, but communication, teamwork, adaptability, leadership and time management make a person employable and reliable.</p>
+              <h4>Key Points</h4>
+              <ul><li>Professional skills support career readiness.</li><li>Employability skills include communication, problem solving, teamwork and adaptability.</li><li>Values, beliefs, attitudes and character influence professional behavior.</li></ul>
+              <h4>Student Guide</h4><p>Build a weekly habit of practicing one soft skill. For example, speak clearly in group work, submit work on time, and reflect on what you can improve after every activity.</p>
+            </div>
+          </article>
+
+          <article class="lecture-panel" id="emotional">
+            <div class="lecture-image soft-image img-emotional"></div>
+            <div class="lecture-copy">
+              <span class="badge">Lecture 2</span>
+              <p class="panel-lecturer">🎤 <strong>Guest Lecture</strong></p>
+              <h3>Emotional Intelligence</h3>
+              <p class="summary">Emotional Intelligence is the ability to understand, manage and use emotions wisely. The lecture showed how emotions affect relationships, work performance and leadership development.</p>
+              <h4>Key Points</h4>
+              <ul><li>Emotions can be seen through voice, facial expression, breathing and body movement.</li><li>Self-awareness helps us understand our reactions.</li><li>Managing emotions improves leadership and teamwork.</li></ul>
+              <h4>Student Guide</h4><p>Before reacting, pause and name the emotion. This small habit helps control stress, avoid conflict and respond professionally.</p>
+            </div>
+          </article>
+
+          <article class="lecture-panel" id="cv">
+            <div class="lecture-image soft-image img-cv"></div>
+            <div class="lecture-copy">
+              <span class="badge">Lecture 9</span>
+              <p class="panel-lecturer">🎤 <strong>Guest Lecture</strong></p>
+              <h3>CV &amp; Cover Letter Writing</h3>
+              <p class="summary">This lecture explained how a CV creates a first impression for employers. A strong CV presents education, skills, achievements and experience in a clear, attractive and job-focused format.</p>
+              <h4>Key Points</h4>
+              <ul><li>Use clear headings, bullet points and consistent formatting.</li><li>Tailor the CV for the job role and company.</li><li>Avoid spelling mistakes, weak descriptions and unnecessary details.</li></ul>
+              <h4>Student Guide</h4><p>Keep one master CV and create tailored versions for each job. Match your skills with the job description using honest evidence.</p>
+            </div>
+          </article>
+
+          <article class="lecture-panel" id="interview">
+            <div class="lecture-image soft-image img-interview"></div>
+            <div class="lecture-copy">
+              <span class="badge">Lecture 8</span>
+              <p class="panel-lecturer">🎤 <strong>Guest Lecture</strong></p>
+              <h3>Interview Skills</h3>
+              <p class="summary">The interview skills lecture focused on verbal and non-verbal communication. It taught that interviewers observe knowledge, attitude, body language, listening skills and confidence.</p>
+              <h4>Key Points</h4>
+              <ul><li>Prepare answers for strengths, weaknesses and goals.</li><li>Maintain posture, eye contact and calm tone.</li><li>Ask meaningful questions about the job and organization.</li></ul>
+              <h4>Student Guide</h4><p>Practice mock interviews with friends. Record your answer and improve your clarity, confidence and body language.</p>
+            </div>
+          </article>
+
+          <article class="lecture-panel" id="job">
+            <div class="lecture-image soft-image img-job"></div>
+            <div class="lecture-copy">
+              <span class="badge">Lecture 8</span>
+              <p class="panel-lecturer">🎤 <strong>Guest Lecture</strong></p>
+              <h3>Job Hunting and Mock Interview Practice</h3>
+              <p class="summary">This lecture connected CV preparation with job search and interview practice. It highlighted the importance of reading job opportunities, preparing CVs, practicing interview questions and using feedback.</p>
+              <h4>Key Points</h4>
+              <ul><li>Understand the job market before applying.</li><li>Use your CV as evidence of your skills.</li><li>Mock interviews help reduce fear and improve confidence.</li></ul>
+              <h4>Student Guide</h4><p>Create a small job tracker with company name, role, deadline, CV version and interview preparation notes.</p>
+            </div>
+          </article>
+
+          <article class="lecture-panel" id="grooming">
+            <div class="lecture-image soft-image img-grooming"></div>
+            <div class="lecture-copy">
+              <span class="badge">Lecture 5</span>
+              <p class="panel-lecturer">👩‍🏫 <strong>Ms. Oshini Wimalasena</strong></p>
+              <h3>Grooming &amp; Etiquette</h3>
+              <p class="summary">This lecture explained that grooming is not about looking expensive or perfect. It is about being clean, neat, appropriate and respectful. Etiquette is how we make others feel through our behavior.</p>
+              <h4>Key Points</h4>
+              <ul><li>Grooming includes hygiene, clothing, shoes, posture and neatness.</li><li>Etiquette includes greeting, listening, phone use and respect.</li><li>First impressions are shaped by appearance, punctuality, tone and confidence.</li></ul>
+              <h4>Student Guide</h4><p>Before a professional event, check clothing, hair, shoes, posture and punctuality. Simple neatness can support your talent.</p>
+            </div>
+          </article>
+
+          <article class="lecture-panel" id="dining">
+            <div class="lecture-image soft-image img-dining"></div>
+            <div class="lecture-copy">
+              <span class="badge">Lecture 6</span>
+              <p class="panel-lecturer">🎤 <strong>Guest Lecture</strong></p>
+              <h3>Dining Etiquette</h3>
+              <p class="summary">This lesson taught how table manners help us behave confidently in casual meals, formal dinners, interviews and networking situations. Dining etiquette shows respect for hosts, guests and cultures.</p>
+              <h4>Key Points</h4>
+              <ul><li>Use the BMW rule: Bread left, Meal center, Water right.</li><li>Use utensils from outside to inside.</li><li>Keep phone away and use polite words with servers.</li></ul>
+              <h4>Student Guide</h4><p>In formal dining, observe first, follow the host, and keep movements calm. Respectful behavior matters more than perfection.</p>
+            </div>
+          </article>
+
+          <article class="lecture-panel" id="email">
+            <div class="lecture-image soft-image img-email"></div>
+            <div class="lecture-copy">
+              <span class="badge">Lecture 7</span>
+              <p class="panel-lecturer">🎤 <strong>Guest Lecture</strong></p>
+              <h3>Email Etiquette</h3>
+              <p class="summary">This topic focused on professional communication through email and phone calls. It reminded us that tone, clarity, structure and politeness are important because they represent our personal and professional image.</p>
+              <h4>Key Points</h4>
+              <ul><li>Email needs a clear subject, greeting, message body and closing.</li><li>Use polite and concise language.</li><li>Telephone etiquette needs a friendly tone, active listening and clear information.</li></ul>
+              <h4>Student Guide</h4><p>Before sending an email, read it once as the receiver. Check spelling, tone and whether the action required is clear.</p>
+            </div>
+          </article>
+
+          <article class="lecture-panel" id="negotiation">
+            <div class="lecture-image soft-image img-negotiation"></div>
+            <div class="lecture-copy">
+              <span class="badge">Lecture 10</span>
+              <p class="panel-lecturer">👩‍🏫 <strong>S. Maneesha Aishcharya</strong></p>
+              <h3>Negotiation Skills</h3>
+              <p class="summary">Negotiation skills help people reach fair decisions while protecting relationships. The topic encouraged preparation, listening, understanding interests and finding win-win solutions.</p>
+              <h4>Key Points</h4>
+              <ul><li>Prepare your goal, limits and alternatives before negotiating.</li><li>Listen to understand the other side's need.</li><li>Stay calm and focus on the problem, not the person.</li></ul>
+              <h4>Student Guide</h4><p>Use the sentence: “I understand your point; can we find a solution that works for both of us?” This keeps negotiation respectful.</p>
+            </div>
+          </article>
+
+          <article class="lecture-panel" id="ethicsit">
+            <div class="lecture-image soft-image img-ethicsit"></div>
+            <div class="lecture-copy">
+              <span class="badge">Lecture 3</span>
+              <p class="panel-lecturer">👩‍🏫 <strong>Nushkan Nismi</strong></p>
+              <h3>Professional Responsibilities &amp; Code of Ethics</h3>
+              <p class="summary">This lecture showed that IT professionals must act responsibly because technology affects privacy, security, fairness and trust. Ethical behavior protects users, organizations and society.</p>
+              <h4>Key Points</h4>
+              <ul><li>Respect privacy and protect confidential information.</li><li>Avoid misuse of systems, data and access rights.</li><li>Build technology that is fair, honest and safe.</li></ul>
+              <h4>Student Guide</h4><p>When making software, ask: Is it safe? Is it honest? Does it respect the user? If the answer is unclear, review the ethical risk.</p>
+            </div>
+          </article>
+
+          <article class="lecture-panel" id="business">
+            <div class="lecture-image soft-image img-business"></div>
+            <div class="lecture-copy">
+              <span class="badge">Lecture 4</span>
+              <p class="panel-lecturer">👨‍🏫 <strong>Shenal Rajakarunanayake</strong></p>
+              <h3>Business Ethics in Practice</h3>
+              <p class="summary">Business ethics focused on integrity, objectivity and professional conduct. The lecture used workplace examples such as gifts, misleading reports and conflicts of interest to show why ethical decisions matter.</p>
+              <h4>Key Points</h4>
+              <ul><li>Integrity means being honest and truthful in professional relationships.</li><li>Objectivity means avoiding bias and conflict of interest.</li><li>Professionals must protect the reputation of their field.</li></ul>
+              <h4>Student Guide</h4><p>If a decision feels hidden, unfair or misleading, stop and check the rules, ask for advice and choose transparency.</p>
+            </div>
+          </article>
+
+          <article class="lecture-panel" id="portfolio">
+            <div class="lecture-image soft-image img-portfolio"></div>
+            <div class="lecture-copy">
+              <span class="badge">Lecture 11</span>
+              <p class="panel-lecturer">👩‍🏫 <strong>Ishara Raviharee Weerasinghe</strong></p>
+              <h3>Portfolio Development</h3>
+              <p class="summary">Portfolio writing taught how to collect learning evidence, achievements, projects and reflections. A good portfolio supports personal branding, job applications and academic growth.</p>
+              <h4>Key Points</h4>
+              <ul><li>Portfolios show skills through real evidence.</li><li>Reflection explains what was learned and how it can be improved.</li><li>Design and organization make the portfolio easy to understand.</li></ul>
+              <h4>Student Guide</h4><p>Do not only upload work. Add a small reflection for each item explaining your role, challenge, solution and learning outcome.</p>
+            </div>
+          </article>
+
+          <article class="lecture-panel grow-panel" id="growgreen">
+            <div class="grow-hero">
+              <img src="assets/grow-green-poster.jpeg" alt="Grow Green giveaway poster">
+              <div>
+                <span class="badge green-badge">Group Project</span>
+                <h3>Grow Green — Free Plant Giveaway</h3>
+                <p class="summary">For the food festival/group project component, our team created a project called <strong>Grow Green</strong>. Instead of only doing an ordinary activity, we designed a meaningful plant giveaway with the message “Small Plant, Big Impact”. Participants could receive a free snake plant, take photos and share the idea of improving surroundings through greenery.</p>
+              </div>
+            </div>
+            <div class="grow-gallery">
+              <img src="assets/grow-green-plants.jpeg" alt="Potted plants prepared for Grow Green">
+              <img src="assets/grow-green-group.jpeg" alt="Grow Green class group photo">
+              <img src="assets/grow-green-frame-team.jpeg" alt="Grow Green team with decorative frame">
+            </div>
+            <div class="grow-details">
+              <h4>Project Key Points</h4>
+              <ul><li>Project Name: Grow Green.</li><li>Activity: Free snake plant giveaway at Turret Tower, 4th Floor, Room 403.</li><li>Purpose: Encourage small eco-friendly actions and promote cleaner indoor surroundings.</li><li>Team Work: Planning, poster design, decoration, plant arrangement, photography and participant engagement.</li></ul>
+              <h4>My Reflection</h4>
+              <p>This project helped me understand teamwork, creativity, event planning and communication. It also showed that a simple idea can become meaningful when the team gives it purpose, visual identity and clear message.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ LECTURERS ═══════ -->
+    <section id="lecturers" class="section-pad lecturers-section">
+      <div class="section-title reveal centered">
+        <p class="eyebrow">Academic Team</p>
+        <h2>Module Leader &amp; Guest Lecturers</h2>
+        <p class="section-desc">The educators who guided my Professional Skills journey and enriched every session with real-world expertise.</p>
+      </div>
+
+      <div class="lecturers-grid">
+
+        <!-- Module Leader — featured -->
+        <div class="lect-card lect-featured reveal">
+          <div class="lect-avatar lect-av-lead">IW</div>
+          <span class="lect-role-tag lect-tag-lead">⭐ Module Leader</span>
+          <h3>Ishara Raviharee Weerasinghe</h3>
+          <p class="lect-org">Professional Skills Lecturer &amp; Module Leader<br>SLIIT City Uni</p>
+          <div class="lect-divider"></div>
+          <p class="lect-topic-label">Lectures &amp; Topics</p>
+          <p class="lect-topic">Professional Skills, Employability &amp; Portfolio Management</p>
+          <p class="lect-quote">"The heart of our module — guiding us to understand that a great career starts with knowing your own strengths, values and goals."</p>
+        </div>
+
+        <!-- Row of 2 -->
+        <div class="lect-card reveal delay">
+          <div class="lect-avatar lect-av-purple">NN</div>
+          <span class="lect-role-tag">Guest Lecturer</span>
+          <h3>Nushkan Nismi</h3>
+          <p class="lect-org">Assistant Lecturer, Faculty of Computing<br>SLIIT</p>
+          <div class="lect-divider"></div>
+          <p class="lect-topic-label">Lecture Topic</p>
+          <p class="lect-topic">Professional Responsibilities &amp; Codes of Ethics</p>
+          <p class="lect-quote">"Showed me that being a good IT professional means being responsible not just to your employer, but to every user whose data you touch."</p>
+        </div>
+
+        <div class="lect-card reveal delay-2">
+          <div class="lect-avatar lect-av-pink">SR</div>
+          <span class="lect-role-tag">Guest Lecturer</span>
+          <h3>Shenal Rajakarunanayake</h3>
+          <p class="lect-org">Department of Industrial Management<br>University of Moratuwa</p>
+          <div class="lect-divider"></div>
+          <p class="lect-topic-label">Lecture Topic</p>
+          <p class="lect-topic">Business Ethics in Practice</p>
+          <p class="lect-quote">"Grounded ethical theory in real business scenarios — integrity and transparency are never optional in the professional world."</p>
+        </div>
+
+        <div class="lect-card reveal delay">
+          <div class="lect-avatar lect-av-gold">OW</div>
+          <span class="lect-role-tag">Guest Lecturer</span>
+          <h3>Ms. Oshini Wimalasena</h3>
+          <p class="lect-org">PhD Reading &nbsp;|&nbsp; MBA UK &nbsp;|&nbsp; B.Bus Aus</p>
+          <div class="lect-divider"></div>
+          <p class="lect-topic-label">Lecture Topic</p>
+          <p class="lect-topic">Grooming &amp; Etiquette</p>
+          <p class="lect-quote">"Transformed how I think about first impressions — professional appearance is a form of respect for yourself and the people you meet."</p>
+        </div>
+
+        <div class="lect-card reveal delay-2">
+          <div class="lect-avatar lect-av-mint">MA</div>
+          <span class="lect-role-tag">Guest Lecturer</span>
+          <h3>S. Maneesha Aishcharya</h3>
+          <p class="lect-org">MBA PIM-USJ &nbsp;|&nbsp; B.Sc. Business Administration (Special)</p>
+          <div class="lect-divider"></div>
+          <p class="lect-topic-label">Lecture Topic</p>
+          <p class="lect-topic">The Art of Negotiation</p>
+          <p class="lect-quote">"Taught me that negotiation is not conflict — it is collaboration. Every agreement is a relationship in the making."</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════ FINAL REFLECTION ═══════ -->
+    <section id="reflection" class="section-pad reflection-section">
+      <div class="section-title reveal centered">
+        <p class="eyebrow">Final Reflection</p>
+        <h2>My Personal Growth Journey</h2>
+        <p class="section-desc">Looking back at how this module shaped who I am becoming as a professional.</p>
+      </div>
+
+      <div class="reflection-body">
+        <div class="reflection-text reveal">
+          <p>The Professional Skills module helped me understand that career success depends not only on technical knowledge, but also on communication, professionalism, ethics, confidence, emotional intelligence and continuous personal development. As an IT student, I previously focused mainly on technical areas such as programming, web development and software projects. However, through this module, I realised that professional behaviour and soft skills are equally important in the workplace.</p>
+          <p>The most impactful session for me was Emotional Intelligence because it helped me understand how emotions influence communication, teamwork and decision-making. I learned that a professional should not only be technically capable, but also emotionally aware, respectful and able to manage pressure. Grooming and Etiquette also changed the way I think about first impressions, personal branding and professional appearance.</p>
+          <p>The sessions on Interview Skills, CV Writing and Email Etiquette were directly useful for my career preparation. I learned how to present myself clearly, write professional emails, improve my CV and prepare for internship interviews. The Code of Ethics and Business Ethics sessions helped me understand the responsibility of IT professionals when handling data, users, systems and organisational information.</p>
+          <p>Overall, this module improved my confidence, communication, professionalism and career readiness. I will apply these lessons when facing interviews, working in teams, communicating with clients and developing software systems responsibly. This digital portfolio itself represents my learning journey and shows how I have reflected on each lecture and applied the knowledge gained throughout the Professional Skills module.</p>
+        </div>
+
+        <div class="skills-rating reveal delay">
+          <h3>My Personal Skill Growth Rating</h3>
+          <p class="skills-rating-sub">Self-assessed ratings after completing the Professional Skills module</p>
+
+          <div class="skill-row">
+            <div class="skill-label"><span class="skill-emoji">🗣️</span> Communication</div>
+            <div class="skill-stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐<span class="star-empty">☆</span></div>
+            <span class="skill-score">9/10</span>
+          </div>
+          <div class="skill-row">
+            <div class="skill-label"><span class="skill-emoji">🧠</span> Emotional Intelligence</div>
+            <div class="skill-stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐<span class="star-empty">☆</span></div>
+            <span class="skill-score">9/10</span>
+          </div>
+          <div class="skill-row">
+            <div class="skill-label"><span class="skill-emoji">⚖️</span> Professional Ethics</div>
+            <div class="skill-stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</div>
+            <span class="skill-score">10/10</span>
+          </div>
+          <div class="skill-row">
+            <div class="skill-label"><span class="skill-emoji">👔</span> Grooming &amp; Professionalism</div>
+            <div class="skill-stars">⭐⭐⭐⭐⭐⭐⭐⭐<span class="star-empty">☆☆</span></div>
+            <span class="skill-score">8/10</span>
+          </div>
+          <div class="skill-row">
+            <div class="skill-label"><span class="skill-emoji">🎤</span> Interview Confidence</div>
+            <div class="skill-stars">⭐⭐⭐⭐⭐⭐⭐⭐<span class="star-empty">☆☆</span></div>
+            <span class="skill-score">8/10</span>
+          </div>
+          <div class="skill-row">
+            <div class="skill-label"><span class="skill-emoji">✉️</span> Email Etiquette</div>
+            <div class="skill-stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐<span class="star-empty">☆</span></div>
+            <span class="skill-score">9/10</span>
+          </div>
+          <div class="skill-row">
+            <div class="skill-label"><span class="skill-emoji">📄</span> CV &amp; Career Readiness</div>
+            <div class="skill-stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐<span class="star-empty">☆</span></div>
+            <span class="skill-score">9/10</span>
+          </div>
+          <div class="skill-row">
+            <div class="skill-label"><span class="skill-emoji">🤝</span> Negotiation Skills</div>
+            <div class="skill-stars">⭐⭐⭐⭐⭐⭐⭐⭐<span class="star-empty">☆☆</span></div>
+            <span class="skill-score">8/10</span>
+          </div>
+          <div class="skill-row">
+            <div class="skill-label"><span class="skill-emoji">🍽️</span> Dining &amp; Social Etiquette</div>
+            <div class="skill-stars">⭐⭐⭐⭐⭐⭐⭐<span class="star-empty">☆☆☆</span></div>
+            <span class="skill-score">7/10</span>
+          </div>
+          <div class="skill-row">
+            <div class="skill-label"><span class="skill-emoji">🚀</span> Self Awareness &amp; Growth</div>
+            <div class="skill-stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</div>
+            <span class="skill-score">10/10</span>
+          </div>
+
+          <p class="skill-legend">⭐ Achieved &nbsp;&nbsp;|&nbsp;&nbsp; ☆ Still growing</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad contact-section">
+      <div class="section-title reveal centered">
+        <p class="eyebrow">Contact</p>
+        <h2>Get in Touch / Complaint Form</h2>
+        <p class="section-desc">Use this form to share feedback or complaints about the portfolio website.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <h3>Contact Details</h3>
+          <p><strong>Phone:</strong> 0762098498</p>
+          <p><strong>Email:</strong> <a href="mailto:vinaakshe15@gmail.com">vinaakshe15@gmail.com</a></p>
+          <p><strong>Location:</strong> No.33, Arethusa Lane, Wellawette, Colombo 06</p>
+          <p><strong>LinkedIn:</strong> <a href="#" aria-label="LinkedIn placeholder">Vinayagamoorthy Akshethaa</a></p>
+          <img src="assets/image.png" alt="Grow Green team with decorative frame">
+          <div class="contact-pattern"></div>
+        </div>
+        <form class="complaint-form reveal delay" id="complaintForm">
+          <label>Name <input type="text" name="name" placeholder="Enter your name" required></label>
+          <label>Email <input type="email" name="email" placeholder="Enter your email" required></label>
+          <label>Phone Number <input type="tel" name="phone" placeholder="Enter your phone number"></label>
+          <label>What's the problem? <textarea name="problem" rows="5" placeholder="Write your complaint or feedback" required></textarea></label>
+          <label>Rating
+            <select name="rating" required>
+              <option value="">Choose rating</option>
+              <option>5 - Excellent</option>
+              <option>4 - Good</option>
+              <option>3 - Average</option>
+              <option>2 - Needs Improvement</option>
+              <option>1 - Poor</option>
+            </select>
+          </label>
+          <button class="btn primary" type="submit">Submit Complaint</button>
+          <p class="form-message" id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h3>Akshethaa's PS Portfolio</h3>
+      <p>Designed with soft colors, floral patterns and a professional learning purpose.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#learn">Lectures</a>
+      <a href="mailto:vinaakshe15@gmail.com">Email</a>
+    </div>
+    <a class="back-top" href="#top">↑ Back to Top</a>
+  </footer>
+</body>
+</html>
